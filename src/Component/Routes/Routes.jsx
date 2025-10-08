@@ -4,6 +4,7 @@ import Homes from "../Home/Homes.jsx";
 import AllApps from "../AllApps/AllApps.jsx";
 import InstallApps from "../AllApps/InstallApps.jsx";
 import { createBrowserRouter } from "react-router";
+import AppsDetails from "../appsdetails/AppsDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,17 +14,24 @@ const router = createBrowserRouter([
     children:[
       {
         index:true,
+        loader:()=>fetch("/homedata.json"),
         element:<Homes/>
         
       },
       {
         path:"allapps",
+        loader:()=>fetch("/allappsdata.json"),
         element:<AllApps/>
 
       },
       {
         path:"insapps",
         element:<InstallApps/>
+      },
+      {
+        path:'/appdetails/:id',
+        loader:()=>fetch("/allappsdata.json"),
+        element:<AppsDetails/>
       }
     ]
   },

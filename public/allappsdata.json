@@ -1,0 +1,361 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 1,
+    "description": "An AI-powered chatbot that assists with various tasks.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 100,
+    "reviews": 500,
+    "ratingAvg": 4.8,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image":"https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 2,
+    "description": "A platform for creating and sharing short music videos.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 150,
+    "reviews": 100,
+    "ratingAvg": 4.7,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 3,
+    "description": "A photo and video sharing social networking service.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 120,
+    "reviews": 800,
+    "ratingAvg": 4.6,
+    "downloads": 80,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 16000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 640000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 4,
+    "description": "A social networking site that makes it easy to connect and share with family and friends online.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 200,
+    "reviews": 120,
+    "ratingAvg": 4.5,
+    "downloads": 12,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 24000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 240000 },
+      { "name": "5 star", "count": 960000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms",
+    "id": 5,
+    "description": "A freeware, cross-platform messaging and Voice over IP (VoIP) service.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 180,
+    "reviews": 110,
+    "ratingAvg": 4.8,
+    "downloads": 11,
+    "ratings": [
+      { "name": "1 star", "count": 11000 },
+      { "name": "2 star", "count": 22000 },
+      { "name": "3 star", "count": 55000 },
+      { "name": "4 star", "count": 220000 },
+      { "name": "5 star", "count": 880000 }
+    ]
+  },
+  {
+    "image":"https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger LLP",
+    "id": 6,
+    "description": "A cloud-based instant messaging, video telephony, and VoIP service.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 100,
+    "reviews": 600,
+    "ratingAvg": 4.7,
+    "downloads": 60,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 480000 }
+    ]
+  },
+  {
+    "image":"https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Spotify",
+    "companyName": "Spotify Technology S.A.",
+    "id": 7,
+    "description": "A digital music service that gives you access to millions of songs and podcasts.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 250,
+    "reviews": 150,
+    "ratingAvg": 4.9,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 75000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "image":"https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "A video sharing service where users can watch, like, share, comment, and upload their own videos.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 300,
+    "reviews": 200,
+    "ratingAvg": 4.8,
+    "downloads": 20,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1600000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "CapCut",
+    "companyName": "ByteDance",
+    "id": 9,
+    "description": "A free all-in-one video editing app for creators.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 150,
+    "reviews": 90,
+    "ratingAvg": 4.7,
+    "downloads": 90,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 720000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Threads",
+    "companyName": "Meta Platforms",
+    "id": 10,
+    "description": "A text-based conversation app built for sharing and connecting with your close friends.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 80,
+    "reviews": 40,
+    "ratingAvg": 4.6,
+    "downloads": 40,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 320000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "AliExpress",
+    "companyName": "Alibaba Group",
+    "id": 11,
+    "description": "An online retail service based in China that is owned by the Alibaba Group.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": 250,
+    "reviews": 130,
+    "ratingAvg": 4.4,
+    "downloads": 13,
+    "ratings": [
+      { "name": "1 star", "count": 13000 },
+      { "name": "2 star", "count": 26000 },
+      { "name": "3 star", "count": 65000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 1040000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "CapCut",
+    "companyName": "ByteDance",
+    "id": 12,
+    "description": "A video editing app with advanced features for creators.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": "Varies by device",
+    "reviews": 50,
+    "ratingAvg": 4.8,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 75000 },
+      { "name": "5 star", "count": 375000 }
+    ]
+  },{
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 13,
+    "description": "A conversational AI assistant that helps with tasks like writing, coding, and information retrieval.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": "Varies by device",
+    "reviews": 100,
+    "ratingAvg": 4.8,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 14,
+    "description": "A short-video platform for creating and sharing viral content.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": "Varies by device",
+    "reviews": 150,
+    "ratingAvg": 4.7,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 75000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 975000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms",
+    "id": 15,
+    "description": "A messaging app for text, voice, and video communication.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": "Varies by device",
+    "reviews": 200,
+    "ratingAvg": 4.6,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 360000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 16,
+    "description": "A photo and video sharing social networking service.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": "Varies by device",
+    "reviews": 120,
+    "ratingAvg": 4.5,
+    "downloads": 20,
+    "ratings": [
+      { "name": "1 star", "count": 72000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 84000 },
+      { "name": "4 star", "count": 264000 },
+      { "name": "5 star", "count": 720000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "title": "CapCut",
+    "companyName": "ByteDance",
+    "id": 17,
+    "description": "A video editing app with advanced features for creators.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": "Varies by device",
+    "reviews": 50,
+    "ratingAvg": 4.8,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 75000 },
+      { "name": "5 star", "count": 375000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger LLP",
+    "id": 18,
+    "description": "A cloud-based instant messaging, video telephony, and VoIP service.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": "Varies by device",
+    "reviews": 800,
+    "ratingAvg": 4.7,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 32000 },
+      { "name": "2 star", "count": 24000 },
+      { "name": "3 star", "count": 48000 },
+      { "name": "4 star", "count": 160000 },
+      { "name": "5 star", "count": 536000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "id": 19,
+    "description": "A mapping service offering satellite imagery, aerial photography, and real-time conditions.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": "Varies by device",
+    "reviews": 300,
+    "ratingAvg": 4.6,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 540000 },
+      { "name": "5 star", "count": 1980000 }
+    ]
+  },
+  {
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "title": "Spotify",
+    "companyName": "Spotify Technology S.A.",
+    "id": 20,
+    "description": "A digital music service that gives you access to millions of songs and podcasts.This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest.",
+    "size": "Varies by device",
+    "reviews": 150,
+    "ratingAvg": 4.7,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1005000 }
+    ]
+  }
+]

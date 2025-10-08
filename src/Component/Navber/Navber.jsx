@@ -44,7 +44,7 @@ const Navber = () => {
   </li>
       </ul>
     </div>
-    <img src={Logo} alt="" srcset="" className='h-8 w-8' />
+    <img src={Logo} alt="" className='h-8 w-8' />
     <a className="btn btn-ghost text-xl">HERO.IO</a>
   </div>
   <div className="navbar-center hidden lg:flex">
