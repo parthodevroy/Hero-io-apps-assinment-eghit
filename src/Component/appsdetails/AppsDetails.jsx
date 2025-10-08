@@ -1,140 +1,131 @@
 
+
 import { useLoaderData, useParams } from 'react-router';
-import downl from "../../assets/icon-downloads.png"
-import rating from "../../assets/icon-ratings.png"
-import reviwe from "../../assets/icon-review.png"
-import { Bar, BarChart, ResponsiveContainer } from 'recharts';
-import {
-  
-  XAxis,
-  YAxis,
-  Tooltip
-} from 'recharts';
+import downl from "../../assets/icon-downloads.png";
+import rating from "../../assets/icon-ratings.png";
+import reviwe from "../../assets/icon-review.png";
+import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis, Tooltip } from 'recharts';
 import Footer from '../Footer/Footer';
 import { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
-
+import 'react-toastify/dist/ReactToastify.css'; // ✅ important for styling
 
 const AppsDetails = () => {
-    const {id}=useParams()
-    const appid=parseInt(id)
+  const { id } = useParams();
+  const appid = parseInt(id);
+  const appsdata = useLoaderData();
 
-    const appsdata=useLoaderData()
+  const newdata = appsdata.find(app => app.id === appid);
+  const { image, title, companyName, ratingAvg, downloads, reviews, ratings, description } = newdata;
 
-     const newdata=appsdata.find(app=>app.id===appid)
-     console.log(newdata);
+  const [isInstalled, setIsInstalled] = useState(false);
 
-     const {image,title,companyName,ratingAvg,downloads,reviews,ratings,description}=newdata;
+  const handelinstall = () => {
+    const getdata = JSON.parse(localStorage.getItem("installlist"));
+    let updateddata = [];
 
-     const [isInstalled, setIsInstalled] = useState(false);
+    if (getdata) {
+      updateddata = [...getdata, newdata];
+    } else {
+      updateddata.push(newdata);
+    }
 
+    localStorage.setItem("installlist", JSON.stringify(updateddata));
+    setIsInstalled(true);
 
-     const handelinstall=()=>{
+    toast.success(`${title} Installed Successfully! 🎉`, {
+      position: "top-center",
+      autoClose: 2000,
+      theme: "colored",
+    });
+  };
 
-        const getdata=JSON.parse(localStorage.getItem("installlist"));
-        let updateddata=[];
-        if(getdata){
-        
-        updateddata = [...getdata,newdata]
-        }
-        else{
-            updateddata.push(newdata)
-        }
-        localStorage.setItem('installlist',JSON.stringify(updateddata))
-        setIsInstalled(true)
-        toast.success(`${title} Installed Successfully! 🎉`, {
-    position: "top-center",
-    autoClose: 2000,
-    hideProgressBar: false,
-    closeOnClick: true,
-    pauseOnHover: false,
-    draggable: true,
-    theme: "colored",})
+  return (
+    <div className="h-auto bg-gray-100">
+      {/* ✅ HERO SECTION */}
+      <div className="hero pt-8 px-4 md:px-10 lg:px-20">
+        <div className="hero-content flex flex-col lg:flex-row items-center lg:items-start gap-6 bg-gray-200 p-4 rounded-xl shadow-md w-full">
+          
+          {/* 🟩 IMAGE */}
+          <div className="flex-shrink-0 w-full sm:w-[250px] flex justify-center">
+            <img
+              src={image}
+              alt={title}
+              className="rounded-lg h-48 sm:h-56 md:h-60 bg-white object-cover shadow-lg"
+            />
+          </div>
 
-     }
-     
-     
-     return (
+          {/* 🟩 INFO SECTION */}
+          <div className="w-full lg:w-[700px] flex flex-col gap-4">
+            <div className="border-b pb-2">
+              <h1 className="text-3xl md:text-5xl font-bold">{title}</h1>
+              <p className="text-gray-600 text-sm md:text-base">{companyName}</p>
+            </div>
 
-       <div className='h-auto bg-gray-200'>
-         
-        <div className="hero pt-8 h-[300px]  bg-gray-200">
-  <div className="hero-content flex-col lg:flex-row">
-    <div className='w-30% '>
-        <img
-      src={image}
-      className="max-w-sm rounded-lg h-60 bg-white shadow-2xl"
-    />
-    </div>
-    <div className='w-[900px] pl-12 gap-2 h-auto '>
-      <div className='border-b-1 pb-4'>
-        <h1 className="text-5xl pb-2 font-bold">{title}</h1>
-      <p className="">
-        {companyName}
-      </p>
-      
-      </div>
-      <div className='w-[300px] pt-4  gap-4 h-[100px] flex justify-between'>
-        <div>
-            <img src={downl} alt="" srcset="" className='h-8 w-8' />
-            <h1 className='text-xs'>Downloads</h1>
-            <p className='text-2xl font-semibold'>{downloads}M</p>
+            {/* ✅ Stats Section */}
+            <div className="flex flex-col sm:flex-row justify-between gap-6 pt-2">
+              <div className="flex flex-col items-center sm:items-start">
+                <img src={downl} alt="" className="h-6 w-6 mb-1" />
+                <h1 className="text-xs text-gray-500">Downloads</h1>
+                <p className="text-xl font-semibold">{downloads}M</p>
+              </div>
 
+              <div className="flex flex-col items-center sm:items-start">
+                <img src={rating} alt="" className="h-6 w-6 mb-1" />
+                <h1 className="text-xs text-gray-500">Average Rating</h1>
+                <p className="text-xl font-semibold">{ratingAvg}</p>
+              </div>
 
+              <div className="flex flex-col items-center sm:items-start">
+                <img src={reviwe} alt="" className="h-6 w-6 mb-1" />
+                <h1 className="text-xs text-gray-500">Total Reviews</h1>
+                <p className="text-xl font-semibold">{reviews}K</p>
+              </div>
+            </div>
+
+            {/* ✅ Install Button */}
+            <div className="pt-4 flex justify-center lg:justify-start">
+              <button
+                onClick={handelinstall}
+                disabled={isInstalled}
+                className={`w-[200px] btn text-white font-semibold ${
+                  isInstalled
+                    ? "bg-gray-400 cursor-not-allowed"
+                    : "bg-lime-500 hover:bg-lime-600"
+                }`}
+              >
+                {isInstalled ? "Installed ✅" : "Install Now (291 MB)"}
+              </button>
+            </div>
+          </div>
         </div>
-        <div>
-            <img src={rating} alt="" srcset="" className='h-8 w-8' />
-            <h1 className='text-xs'>Avarage rating</h1>
-            <p className='text-2xl font-semibold'>{ratingAvg}</p>
-
-
-        </div>
-        <div>
-            <img src={reviwe} alt="" srcset="" className='h-8 w-8' />
-            <h1 className='text-xs'>Total Reviews</h1>
-            <p className='text-2xl font-semibold'>{reviews}K</p>
-
-
-        </div>
       </div>
-      <div className='pt-4'>
-        <button
-          onClick={handelinstall}
-          disabled={isInstalled} // ✅ disable condition
-          className={`w-[200px] btn ${
-            isInstalled ? "bg-gray-400 cursor-not-allowed" : "bg-lime-500"
-          }`}
-        >
-          {isInstalled ? "Installed ✅" : "Install Now (291 MB)"}
-        </button>
-      </div>
-    </div>
-   
-  </div>
-  
-</div>
- <div className="p-6">
+
+      {/* ✅ CHART SECTION */}
+      <div className="p-4 md:p-10">
         <h1 className="text-2xl font-semibold mb-4 text-center">User Ratings Distribution</h1>
-
-        <div className="h-60">
+        <div className="h-60 bg-white rounded-xl shadow-sm p-2 md:p-4">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={ratings}>
               <XAxis dataKey="name" />
               <YAxis />
               <Tooltip />
-              <Bar dataKey="count" fill="#8884d8" />
+              <Bar dataKey="count" fill="#4ade80" />
             </BarChart>
           </ResponsiveContainer>
         </div>
       </div>
-      <div className='text-xls pt-4 p-6'>
-        <h1 className='text-2xl font-semibold'>Description</h1>
-        <p>{description}</p>
+
+      {/* ✅ DESCRIPTION */}
+      <div className="p-4 md:p-10">
+        <h1 className="text-2xl font-semibold mb-2">Description</h1>
+        <p className="text-gray-700 leading-relaxed">{description}</p>
       </div>
-      <Footer/>
-     <ToastContainer/>
-       </div>
-    );
+
+      <Footer />
+      <ToastContainer />
+    </div>
+  );
 };
 
 export default AppsDetails;

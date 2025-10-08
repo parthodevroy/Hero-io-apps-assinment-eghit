@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Installed from './Installed';
+import Footer from '../Footer/Footer';
 
 const InstallApps = () => {
 
@@ -14,6 +15,7 @@ const InstallApps = () => {
 // const {image,title,ratingAvg,downloads}=installed;
 
     return (
+        <>
         <div className='text-center bg-gray-200'>
             <h1 className=' text-3xl font-semibold p-2 md:pt-8'> Your Installed Apps</h1>
             <p>Explore All Trending Apps on the Market developed by us</p>
@@ -27,6 +29,9 @@ const InstallApps = () => {
                 }
             </div>
         </div>
+        <Footer/>
+        
+        </>
     );
 };
 

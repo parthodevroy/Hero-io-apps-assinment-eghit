@@ -22,7 +22,7 @@ const AllApps = () => {
                 </label>
 
             </div>
-            <div className='grid grid-cols-4 p-4 gap-2'>
+            <div className='grid grid-cols-1 md:grid-cols-4 p-4 gap-2'>
                 {
                     alldata.map((app)=>(<Apps key={app.id} app={app}></Apps>))
                 }
