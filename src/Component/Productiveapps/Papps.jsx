@@ -8,7 +8,7 @@ const Papps = () => {
 <span className='text-indigo-500'>Productive</span> Apps</h1>
 <p className='text-xs'>At HERO.IO we craft innovative apps designed to make everyday life simpler, smarter, 
     and more exciting <br></br>.Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
-     <div className='flex justify-center p-4 space-x-4'>
+     <div className='flex flex-col md:flex-row justify-center items-center text-center p-4 sm:space-y-2 md:space-x-4 '>
                 {/* Google Play button */}
                 <a
                     href='https://play.google.com/store/games?hl=en'

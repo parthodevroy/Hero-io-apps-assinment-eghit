@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 
 const Apps = ({app}) => {
     console.log(app);
-    const {id,image,companyName,ratingAvg,downloads}=app;
+    const {id,image,companyName,ratingAvg,downloads,title}=app;
     
     return (
        <>
@@ -25,7 +25,7 @@ const Apps = ({app}) => {
          </div>
          <div className="card-body">
            
-           <p className='text-xl text-red-500 font-semibold'>{companyName}</p>
+           <p className='text-xl text-red-500 font-semibold'>{title}</p>
            <div className="card-actions flex justify-between">
              <div className="badge badge-outline"><img src={downld} alt="" className='h-4 w-4' />{downloads}M</div>
              <div className="badge badge-outline"><img src={ratig} alt=""  className='h-4 w-4'/>{ratingAvg}</div>

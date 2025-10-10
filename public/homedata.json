@@ -1,9 +1,9 @@
 [
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
     "title": "ChatGPT",
     "companyName": "OpenAI",
-    "id": 1,
+    "id": 10,
     "description": "A conversational AI assistant that helps with tasks like writing, coding, and information retrieval.",
     "size": "Varies by device",
     "reviews": 1000000,
@@ -18,10 +18,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Tiktok_icon.svg",
     "title": "TikTok",
     "companyName": "ByteDance",
-    "id": 2,
+    "id": 1,
     "description": "A short-video platform for creating and sharing viral content.",
     "size": "Varies by device",
     "reviews": 1500000,
@@ -36,10 +36,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
     "title": "WhatsApp Messenger",
     "companyName": "Meta Platforms",
-    "id": 3,
+    "id": 7,
     "description": "A messaging app for text, voice, and video communication.",
     "size": "Varies by device",
     "reviews": 2000000,
@@ -57,7 +57,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png",
     "title": "Instagram",
     "companyName": "Meta Platforms",
-    "id": 4,
+    "id": 2,
     "description": "A photo and video sharing social networking service.",
     "size": "Varies by device",
     "reviews": 1200000,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "image": "https://i.ibb.co.com/YBRz9g0g/unnamed.webp",
     "title": "CapCut",
     "companyName": "ByteDance",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg",
     "title": "Telegram",
     "companyName": "Telegram Messenger LLP",
     "id": 6,
@@ -108,10 +108,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "image": "https://i.ibb.co.com/MkL0Zz8D/needle-2423012-1280.webp",
     "title": "Google Maps",
     "companyName": "Google",
-    "id": 7,
+    "id": 8,
     "description": "A mapping service offering satellite imagery, aerial photography, and real-time conditions.",
     "size": "Varies by device",
     "reviews": 3000000,
@@ -126,10 +126,10 @@
     ]
   },
   {
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png",
+    "image":"https://i.ibb.co.com/cKP2hTLz/1259710-3840x2160-desktop-4k-spotify-background-image.jpg",
     "title": "Spotify",
     "companyName": "Spotify Technology S.A.",
-    "id": 8,
+    "id": 18,
     "description": "A digital music service that gives you access to millions of songs and podcasts.",
     "size": "Varies by device",
     "reviews": 1500000,
