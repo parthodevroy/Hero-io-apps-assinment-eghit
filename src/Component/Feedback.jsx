@@ -10,7 +10,7 @@ const Feedback = () => {
                 <h1 className='text-center font-semibold text-white'>Trusted by Millions, Built for You</h1>
             </div>
             <footer className=" flex justify-center space-x-6 sm:footer-horizontal  text-center p-4">
-  <nav className=' p-2'>
+  <nav className=''>
     <h6 className="footer-title text-white">Total Downloads</h6>
     <h1 className="link text-white text-4xl link-hover">29.6M</h1>
     <p className="link text-white text-xs link-hover">21% more than last month</p>

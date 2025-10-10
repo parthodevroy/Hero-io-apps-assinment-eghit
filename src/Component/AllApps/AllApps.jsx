@@ -1,21 +1,34 @@
-
-import React, { useState } from 'react';
-import { useLoaderData } from 'react-router';
+import React, { useState, useEffect } from 'react';
+import { useLoaderData, } from 'react-router';
 import Apps from './Apps';
 import Footer from '../Footer/Footer';
 import Emptyapps from '../Emptyapps';
+import Loader from '../loader/Loader';
 
 const AllApps = () => {
   const alldata = useLoaderData();
   const [searchTerm, setSearchTerm] = useState("");
+  const [filteredApps, setFilteredApps] = useState(alldata);
+  const [loading, setLoading] = useState(false); 
 
-  const normalizedSearch = searchTerm.replace(/\s+/g, '').toLowerCase();
+  useEffect(() => {
+    setLoading(true);
 
-  const filteredApps = alldata.filter(app => {
-    const title = app.title.replace(/\s+/g, '').toLowerCase();
-    const company = app.companyName.replace(/\s+/g, '').toLowerCase();
-    return title.includes(normalizedSearch) || company.includes(normalizedSearch);
-  });
+    const delay = setTimeout(() => {
+      const normalizedSearch = searchTerm.replace(/\s+/g, '').toLowerCase();
+
+      const filtered = alldata.filter(app => {
+        const title = app.title.replace(/\s+/g, '').toLowerCase();
+        const company = app.companyName.replace(/\s+/g, '').toLowerCase();
+        return title.includes(normalizedSearch) || company.includes(normalizedSearch);
+      });
+
+      setFilteredApps(filtered);
+      setLoading(false);
+    }, 200);
+
+    return () => clearTimeout(delay);
+  }, [searchTerm, alldata]);
 
   return (
     <div className='bg-gray-200 p-4 text-center min-h-screen'>
@@ -34,19 +47,25 @@ const AllApps = () => {
         />
       </div>
 
-      <div className='grid grid-cols-1 md:grid-cols-4 p-4 gap-2'>
-        {
-          filteredApps.length > 0 ? (
-            filteredApps.map(app => (
-              <Apps key={app.id} app={app} />
-            ))
-          ) : (
-            <div  className='h-full w-full md:w-[1200px] mx-auto '>
-              <Emptyapps/>
-            </div>
-          )
-        }
-      </div>
+      {loading ? (
+        <div>
+          <Loader />
+        </div>
+      ) : (
+        <div className='grid grid-cols-1 bg-gray-200 md:grid-cols-4 p-4 gap-2'>
+          {
+            filteredApps.length > 0 ? (
+              filteredApps.map(app => (
+                <Apps key={app.id} app={app} />
+              ))
+            ) : (
+              <div className='h-full w-full md:w-[1200px] mx-auto'>
+                <Emptyapps />
+              </div>
+            )
+          }
+        </div>
+      )}
 
       <Footer />
     </div>

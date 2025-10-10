@@ -25,8 +25,14 @@ const router = createBrowserRouter([
 
       },
       {
-        path:"insapps",
-        element:<InstallApps/>
+        // path:"insapps",
+        // element:<InstallApps/>
+         path: "/insapps",
+  element: <InstallApps />,
+  loader: async () => {
+    // simulate loading delay
+    return new Promise(resolve => setTimeout(resolve, 200));
+  }
       },
       {
         path:'/appdetails/:id',

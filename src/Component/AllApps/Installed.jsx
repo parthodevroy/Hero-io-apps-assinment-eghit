@@ -32,13 +32,7 @@ const Installed = ({ apps, onRemove }) => {
         "
       >
         <div className="hero-content flex-col md:flex-row items-center gap-4">
-          {/* <div className="flex-shrink-0">
-            <img
-              src={image}
-              alt={title}
-              className="rounded-lg w-24 h-24 md:w-20 md:h-20 object-cover shadow-md"
-            />
-          </div> */}
+         
           <div className="w-full sm:w-[200px] md:w-[200px] h-28 lg:w-[300px] aspect-[4/3] bg-white rounded-xl shadow-md overflow-hidden flex items-center justify-center">
   <img
     src={image}

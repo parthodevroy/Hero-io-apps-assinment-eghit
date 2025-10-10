@@ -14,7 +14,7 @@ const Papps = () => {
                     href='https://play.google.com/store/games?hl=en'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='flex items-center space-x-2 bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-800 hover:text-white transition'
+                    className='flex items-center space-x-2 bg-white text-black px-2 py-3 rounded-lg hover:bg-gray-800 hover:text-white transition'
                 >
                     <FaGooglePlay size={20} />
                     <span>Google Play</span>
@@ -25,7 +25,7 @@ const Papps = () => {
                     href='https://www.apple.com/app-store/'
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='flex items-center space-x-2 bg-white text-black px-4 py-2 rounded-lg hover:bg-gray-800 hover:text-white transition'
+                    className='flex items-center space-x-2 bg-white text-black px-2 py-3 rounded-lg hover:bg-gray-800 hover:text-white transition'
                 >
                     <FaAppStoreIos size={20} />
                     <span>App Store</span>

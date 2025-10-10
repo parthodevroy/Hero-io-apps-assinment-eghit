@@ -8,7 +8,6 @@ const Root = () => {
     <div>
       <Navber />
       <Outlet />
-      {/* ✅ Root level ToastContainer */}
       <ToastContainer
         position="top-center"
         autoClose={2000}

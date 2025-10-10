@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 
 const Apps = ({app}) => {
     console.log(app);
-    const {id,image,companyName,ratingAvg,downloads,title}=app;
+    const {id,image,ratingAvg,downloads,title}=app;
     
     return (
        <>
@@ -32,6 +32,8 @@ const Apps = ({app}) => {
            </div>
          </div>
        </div>
+        <div  className='h-full w-full md:w-[1200px] mx-auto '>
+            </div>
        
                </div>
               </Link>
